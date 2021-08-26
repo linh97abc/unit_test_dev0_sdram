@@ -1,0 +1,98 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/linh9/Documents/source/DE0-CV_v.1.2.1_SystemCD/Demonstrations/DE0_CV_SDRAM_Nios_Test/software/DE0_CV_SDRAM_Nios_Test/obj/default/runtime/sim/mentor
+vDE0_CV_QSYS_sdram
+Z1 !s110 1629793400
+!i10b 1
+!s100 9nFMeNO;iiYXb]@<_S:1J0
+IUG@X2FlM;i6_=@7WN0@mU3
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z3 w1629709311
+Z4 8C:/Users/linh9/Documents/source/DE0-CV_v.1.2.1_SystemCD/Demonstrations/DE0_CV_SDRAM_Nios_Test/DE0_CV_QSYS/testbench/DE0_CV_QSYS_tb/simulation/submodules/DE0_CV_QSYS_sdram.v
+Z5 FC:/Users/linh9/Documents/source/DE0-CV_v.1.2.1_SystemCD/Demonstrations/DE0_CV_SDRAM_Nios_Test/DE0_CV_QSYS/testbench/DE0_CV_QSYS_tb/simulation/submodules/DE0_CV_QSYS_sdram.v
+L0 159
+Z6 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z7 !s108 1629793400.000000
+Z8 !s107 C:/Users/linh9/Documents/source/DE0-CV_v.1.2.1_SystemCD/Demonstrations/DE0_CV_SDRAM_Nios_Test/DE0_CV_QSYS/testbench/DE0_CV_QSYS_tb/simulation/submodules/DE0_CV_QSYS_sdram.v|
+Z9 !s90 -reportprogress|300|C:/Users/linh9/Documents/source/DE0-CV_v.1.2.1_SystemCD/Demonstrations/DE0_CV_SDRAM_Nios_Test/DE0_CV_QSYS/testbench/DE0_CV_QSYS_tb/simulation/submodules/DE0_CV_QSYS_sdram.v|-work|sdram|
+!i113 1
+Z10 o-work sdram
+Z11 tCvgOpt 0
+n@d@e0_@c@v_@q@s@y@s_sdram
+vDE0_CV_QSYS_sdram_input_efifo_module
+R1
+!i10b 1
+!s100 3FoG21VJ:0i2Qh[DmYf[c2
+Ia=a7n_W]ZSzm?HY7QS8`[2
+R2
+R0
+R3
+R4
+R5
+Z12 L0 21
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+n@d@e0_@c@v_@q@s@y@s_sdram_input_efifo_module
+vDE0_CV_QSYS_sdram_test_component
+R1
+!i10b 1
+!s100 k]d]HFVkW2INVkd3LgnF41
+I_VlZQF4h13f>mkc9lAobm3
+R2
+R0
+R3
+Z13 8C:/Users/linh9/Documents/source/DE0-CV_v.1.2.1_SystemCD/Demonstrations/DE0_CV_SDRAM_Nios_Test/DE0_CV_QSYS/testbench/DE0_CV_QSYS_tb/simulation/submodules/DE0_CV_QSYS_sdram_test_component.v
+Z14 FC:/Users/linh9/Documents/source/DE0-CV_v.1.2.1_SystemCD/Demonstrations/DE0_CV_SDRAM_Nios_Test/DE0_CV_QSYS/testbench/DE0_CV_QSYS_tb/simulation/submodules/DE0_CV_QSYS_sdram_test_component.v
+L0 114
+R6
+r1
+!s85 0
+31
+R7
+Z15 !s107 C:/Users/linh9/Documents/source/DE0-CV_v.1.2.1_SystemCD/Demonstrations/DE0_CV_SDRAM_Nios_Test/DE0_CV_QSYS/testbench/DE0_CV_QSYS_tb/simulation/submodules/DE0_CV_QSYS_sdram_test_component.v|
+Z16 !s90 -reportprogress|300|C:/Users/linh9/Documents/source/DE0-CV_v.1.2.1_SystemCD/Demonstrations/DE0_CV_SDRAM_Nios_Test/DE0_CV_QSYS/testbench/DE0_CV_QSYS_tb/simulation/submodules/DE0_CV_QSYS_sdram_test_component.v|-work|sdram|
+!i113 1
+R10
+R11
+n@d@e0_@c@v_@q@s@y@s_sdram_test_component
+vDE0_CV_QSYS_sdram_test_component_ram_module
+R1
+!i10b 1
+!s100 O@ShAg9ligQi]RgYazagQ2
+IPM1Eo:8HPKO>b88_l8<M80
+R2
+R0
+R3
+R13
+R14
+R12
+R6
+r1
+!s85 0
+31
+R7
+R15
+R16
+!i113 1
+R10
+R11
+n@d@e0_@c@v_@q@s@y@s_sdram_test_component_ram_module

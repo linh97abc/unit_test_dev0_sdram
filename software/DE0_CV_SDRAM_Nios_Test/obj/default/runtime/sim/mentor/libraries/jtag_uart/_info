@@ -1,0 +1,120 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/linh9/Documents/source/DE0-CV_v.1.2.1_SystemCD/Demonstrations/DE0_CV_SDRAM_Nios_Test/software/DE0_CV_SDRAM_Nios_Test/obj/default/runtime/sim/mentor
+vDE0_CV_QSYS_jtag_uart
+Z1 !s110 1629793401
+!i10b 1
+!s100 acc[ccH?Ya_Iz8=kbfz7f1
+II<J4KDM:2bMLZZ=QPE3H52
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z3 w1629709282
+Z4 8C:/Users/linh9/Documents/source/DE0-CV_v.1.2.1_SystemCD/Demonstrations/DE0_CV_SDRAM_Nios_Test/DE0_CV_QSYS/testbench/DE0_CV_QSYS_tb/simulation/submodules/DE0_CV_QSYS_jtag_uart.v
+Z5 FC:/Users/linh9/Documents/source/DE0-CV_v.1.2.1_SystemCD/Demonstrations/DE0_CV_SDRAM_Nios_Test/DE0_CV_QSYS/testbench/DE0_CV_QSYS_tb/simulation/submodules/DE0_CV_QSYS_jtag_uart.v
+L0 331
+Z6 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z7 !s108 1629793400.000000
+Z8 !s107 C:/Users/linh9/Documents/source/DE0-CV_v.1.2.1_SystemCD/Demonstrations/DE0_CV_SDRAM_Nios_Test/DE0_CV_QSYS/testbench/DE0_CV_QSYS_tb/simulation/submodules/DE0_CV_QSYS_jtag_uart.v|
+Z9 !s90 -reportprogress|300|C:/Users/linh9/Documents/source/DE0-CV_v.1.2.1_SystemCD/Demonstrations/DE0_CV_SDRAM_Nios_Test/DE0_CV_QSYS/testbench/DE0_CV_QSYS_tb/simulation/submodules/DE0_CV_QSYS_jtag_uart.v|-work|jtag_uart|
+!i113 1
+Z10 o-work jtag_uart
+Z11 tCvgOpt 0
+n@d@e0_@c@v_@q@s@y@s_jtag_uart
+vDE0_CV_QSYS_jtag_uart_scfifo_r
+R1
+!i10b 1
+!s100 Lb[Lz8Qai_^mLZolzG1o]2
+IX=TZP^UZ09D?HTVkMNR0V0
+R2
+R0
+R3
+R4
+R5
+L0 243
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+n@d@e0_@c@v_@q@s@y@s_jtag_uart_scfifo_r
+vDE0_CV_QSYS_jtag_uart_scfifo_w
+R1
+!i10b 1
+!s100 e9KfE;[ULCSiCUZ[a[33:3
+IfW^=g=@^=if>[G0j<K7cL2
+R2
+R0
+R3
+R4
+R5
+L0 78
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+n@d@e0_@c@v_@q@s@y@s_jtag_uart_scfifo_w
+vDE0_CV_QSYS_jtag_uart_sim_scfifo_r
+R1
+!i10b 1
+!s100 zk`Gm2ajjSWIigS1MRShf2
+Ig7BdA798CMhGXV:fPNa7Q2
+R2
+R0
+R3
+R4
+R5
+L0 164
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+n@d@e0_@c@v_@q@s@y@s_jtag_uart_sim_scfifo_r
+vDE0_CV_QSYS_jtag_uart_sim_scfifo_w
+R1
+!i10b 1
+!s100 WINnGKffii:8z6>HKR@zd1
+Iz2K^jGkjZFO7aCKQb5BoK0
+R2
+R0
+R3
+R4
+R5
+L0 21
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+n@d@e0_@c@v_@q@s@y@s_jtag_uart_sim_scfifo_w

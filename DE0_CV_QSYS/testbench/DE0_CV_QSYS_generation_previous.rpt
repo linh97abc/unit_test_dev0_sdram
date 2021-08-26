@@ -1,0 +1,479 @@
+Info: Starting: Create testbench Platform Designer system
+Info: C:/Users/linh9/Documents/source/DE0-CV_v.1.2.1_SystemCD/Demonstrations/DE0_CV_SDRAM_Nios_Test/DE0_CV_QSYS/testbench/DE0_CV_QSYS.ipx
+Info: qsys-generate C:\Users\linh9\Documents\source\DE0-CV_v.1.2.1_SystemCD\Demonstrations\DE0_CV_SDRAM_Nios_Test\DE0_CV_QSYS.qsys --testbench=STANDARD --output-directory=C:\Users\linh9\Documents\source\DE0-CV_v.1.2.1_SystemCD\Demonstrations\DE0_CV_SDRAM_Nios_Test --family="Cyclone V" --part=5CEBA4F23C7
+Progress: Loading DE0_CV_SDRAM_Nios_Test/DE0_CV_QSYS.qsys
+Progress: Reading input file
+Progress: Adding clk_50 [clock_source 18.1]
+Progress: Parameterizing module clk_50
+Progress: Adding jtag_uart [altera_avalon_jtag_uart 18.1]
+Progress: Parameterizing module jtag_uart
+Progress: Adding key [altera_avalon_pio 18.1]
+Progress: Parameterizing module key
+Progress: Adding nios2_qsys [altera_nios2_gen2 18.1]
+Progress: Parameterizing module nios2_qsys
+Progress: Adding onchip_memory2 [altera_avalon_onchip_memory2 18.1]
+Progress: Parameterizing module onchip_memory2
+Progress: Adding pll [altera_pll 18.1]
+Progress: Parameterizing module pll
+Progress: Adding sdram [altera_avalon_new_sdram_controller 18.1]
+Progress: Parameterizing module sdram
+Progress: Adding sysid_qsys [altera_avalon_sysid_qsys 18.1]
+Progress: Parameterizing module sysid_qsys
+Progress: Adding timer [altera_avalon_timer 18.1]
+Progress: Parameterizing module timer
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: DE0_CV_QSYS.jtag_uart: JTAG UART IP input clock need to be at least double (2x) the operating frequency of JTAG TCK on board
+Info: DE0_CV_QSYS.key: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Info: DE0_CV_QSYS.pll: The legal reference clock frequency is 5.0 MHz..700.0 MHz
+Warning: DE0_CV_QSYS.pll: Able to implement PLL - Actual settings differ from Requested settings
+Info: DE0_CV_QSYS.sdram: SDRAM Controller will only be supported in Quartus Prime Standard Edition in the future release.
+Info: DE0_CV_QSYS.sysid_qsys: System ID is not assigned automatically. Edit the System ID parameter to provide a unique ID
+Info: DE0_CV_QSYS.sysid_qsys: Time stamp will be automatically updated when this component is generated.
+Info: qsys-generate succeeded.
+Info: Loading IP catalog for testbench.
+Progress: 
+Progress: 
+Progress: 
+Progress: (2) searching C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/root_components.ipx (ipx file)
+Info: Reading index C:\intelfpga_lite\18.1\quartus\sopc_builder\bin\root_components.ipx
+Info: C:\intelfpga_lite\18.1\quartus\sopc_builder\bin\root_components.ipx: Loading now from components.ipx
+Info: Reading index C:\intelfpga_lite\18.1\quartus\sopc_builder\bin\ip_component_categories.ipx
+Info: C:\intelfpga_lite\18.1\quartus\sopc_builder\bin\ip_component_categories.ipx described 0 plugins, 0 paths, in 0.01 seconds
+Info: C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/ip_component_categories.ipx matched 1 files in 0.01 seconds
+Info: C:/Users/linh9/Documents/source/DE0-CV_v.1.2.1_SystemCD/Demonstrations/DE0_CV_SDRAM_Nios_Test/DE0_CV_QSYS/testbench/ip/**/* matched 0 files in 0.00 seconds
+Info: Reading index C:\Users\linh9\Documents\source\DE0-CV_v.1.2.1_SystemCD\Demonstrations\DE0_CV_SDRAM_Nios_Test\DE0_CV_QSYS\testbench\DE0_CV_QSYS.ipx
+Progress: Loading DE0_CV_SDRAM_Nios_Test/DE0_CV_QSYS.qsys
+Info: C:/Users/linh9/Documents/source/DE0-CV_v.1.2.1_SystemCD/Demonstrations/DE0_CV_SDRAM_Nios_Test/* matched 33 files in 0.01 seconds
+Info: C:/Users/linh9/Documents/source/DE0-CV_v.1.2.1_SystemCD/Demonstrations/DE0_CV_SDRAM_Nios_Test/ip/**/* matched 0 files in 0.00 seconds
+Info: C:/Users/linh9/Documents/source/DE0-CV_v.1.2.1_SystemCD/Demonstrations/DE0_CV_SDRAM_Nios_Test/*/* matched 446 files in 0.05 seconds
+Info: C:\Users\linh9\Documents\source\DE0-CV_v.1.2.1_SystemCD\Demonstrations\DE0_CV_SDRAM_Nios_Test\DE0_CV_QSYS\testbench\DE0_CV_QSYS.ipx described 0 plugins, 3 paths, in 0.10 seconds
+Info: C:/Users/linh9/Documents/source/DE0-CV_v.1.2.1_SystemCD/Demonstrations/DE0_CV_SDRAM_Nios_Test/DE0_CV_QSYS/testbench/* matched 4 files in 0.11 seconds
+Info: C:/Users/linh9/Documents/source/DE0-CV_v.1.2.1_SystemCD/Demonstrations/DE0_CV_SDRAM_Nios_Test/DE0_CV_QSYS/testbench/*/* matched 0 files in 0.00 seconds
+Info: C:/Users/linh9/.altera.quartus/ip/18.1/**/* matched 0 files in 0.00 seconds
+Info: C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/$$QUARTUS_IP_PROJECTDIR/* matched 0 files in 0.00 seconds
+Info: C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/$$QUARTUS_IP_USERDIR/* matched 0 files in 0.00 seconds
+Info: C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/$$QUARTUS_IP_GLOBALDIR/* matched 0 files in 0.00 seconds
+Info: Reading index C:\intelfpga_lite\18.1\ip\altera\altera_components.ipx
+Info: C:\intelfpga_lite\18.1\ip\altera\altera_components.ipx described 2035 plugins, 0 paths, in 0.25 seconds
+Info: C:/intelfpga_lite/18.1/ip/**/* matched 139 files in 0.28 seconds
+Info: C:/intelfpga_lite/ip/**/* matched 0 files in 0.00 seconds
+Info: Reading index C:\intelfpga_lite\18.1\quartus\sopc_builder\builtin.ipx
+Info: C:\intelfpga_lite\18.1\quartus\sopc_builder\builtin.ipx described 83 plugins, 0 paths, in 0.02 seconds
+Info: C:/intelfpga_lite/18.1/quartus/sopc_builder/**/* matched 8 files in 0.03 seconds
+Info: Reading index C:\intelfpga_lite\18.1\quartus\common\librarian\factories\index.ipx
+Info: C:\intelfpga_lite\18.1\quartus\common\librarian\factories\index.ipx described 151 plugins, 0 paths, in 0.01 seconds
+Info: C:/intelfpga_lite/18.1/quartus/common/librarian/factories/**/* matched 4 files in 0.02 seconds
+Info: C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/$IP_IPX_PATH matched 1 files in 0.00 seconds
+Info: C:\intelfpga_lite\18.1\quartus\sopc_builder\bin\root_components.ipx described 0 plugins, 13 paths, in 0.46 seconds
+Info: C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/root_components.ipx matched 1 files in 0.46 seconds
+Progress: 
+Progress: 
+Progress: 
+Info: Running script C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/tbgen.tcl
+Info: send_message Info TB_Gen: QSYS Testbench Generator Rev: $Revision: #1 $
+Info: TB_Gen: QSYS Testbench Generator Rev: $Revision: #1 $
+Info: get_module_property NAME
+Info: send_message Info TB_Gen: System design is: DE0_CV_QSYS
+Info: TB_Gen: System design is: DE0_CV_QSYS
+Info: get_interfaces 
+Info: get_connections 
+Info: get_interface_property clk EXPORT_OF
+Info: get_instance_property clk_50 CLASS_NAME
+Info: get_instance_assignment clk_50 testbench.partner.map.clk_in
+Info: get_interface_property clk_sdram EXPORT_OF
+Info: get_instance_property pll CLASS_NAME
+Info: get_instance_assignment pll testbench.partner.map.outclk1
+Info: get_interface_property key_external_connection EXPORT_OF
+Info: get_instance_property key CLASS_NAME
+Info: get_instance_assignment key testbench.partner.map.external_connection
+Info: get_interface_property pll_locked EXPORT_OF
+Info: get_instance_property pll CLASS_NAME
+Info: get_instance_assignment pll testbench.partner.map.locked
+Info: get_interface_property reset EXPORT_OF
+Info: get_instance_property clk_50 CLASS_NAME
+Info: get_instance_assignment clk_50 testbench.partner.map.clk_in_reset
+Info: get_interface_property sdram_wire EXPORT_OF
+Info: get_instance_property sdram CLASS_NAME
+Info: get_instance_assignment sdram testbench.partner.map.wire
+Info: get_instance_assignment sdram testbench.partner.map.wire
+Info: get_instance_assignment sdram testbench.partner.map.wire
+Info: get_instance_assignment sdram testbench.partner.my_partner.class
+Info: get_instance_assignment sdram testbench.partner.my_partner.version
+Info: get_instance_assignments sdram
+Info: get_instance_assignment sdram testbench.partner.my_partner.parameter.CAS_LATENCY
+Info: get_instance_assignment sdram testbench.partner.my_partner.parameter.CONTR_NAME
+Info: get_instance_assignment sdram testbench.partner.my_partner.parameter.SDRAM_BANK_WIDTH
+Info: get_instance_assignment sdram testbench.partner.my_partner.parameter.SDRAM_COL_WIDTH
+Info: get_instance_assignment sdram testbench.partner.my_partner.parameter.SDRAM_DATA_WIDTH
+Info: get_instance_assignment sdram testbench.partner.my_partner.parameter.SDRAM_NUM_CHIPSELECTS
+Info: get_instance_assignment sdram testbench.partner.my_partner.parameter.SDRAM_ROW_WIDTH
+Info: send_message Info TB_Gen: Interface 'sdram_wire' partner_name: 'sdram_my_partner'
+Info: TB_Gen: Interface 'sdram_wire' partner_name: 'sdram_my_partner'
+Info: send_message Info TB_Gen: Interface 'sdram_my_partner' sdram_wire.partner_intf: 'conduit'
+Info: TB_Gen: Interface 'sdram_my_partner' sdram_wire.partner_intf: 'conduit'
+Info: send_message Info TB_Gen: Interface 'sdram_my_partner' partner_class: 'altera_sdram_partner_module'
+Info: TB_Gen: Interface 'sdram_my_partner' partner_class: 'altera_sdram_partner_module'
+Info: send_message Info TB_Gen: Interface 'sdram_my_partner' partner_version: ''
+Info: TB_Gen: Interface 'sdram_my_partner' partner_version: ''
+Info: send_message Info TB_Gen: Interface 'sdram_my_partner' partner_param.CAS_LATENCY: '3'
+Info: TB_Gen: Interface 'sdram_my_partner' partner_param.CAS_LATENCY: '3'
+Info: send_message Info TB_Gen: Interface 'sdram_my_partner' partner_param.CONTR_NAME: 'DE0_CV_QSYS_sdram'
+Info: TB_Gen: Interface 'sdram_my_partner' partner_param.CONTR_NAME: 'DE0_CV_QSYS_sdram'
+Info: send_message Info TB_Gen: Interface 'sdram_my_partner' partner_param.SDRAM_BANK_WIDTH: '2'
+Info: TB_Gen: Interface 'sdram_my_partner' partner_param.SDRAM_BANK_WIDTH: '2'
+Info: send_message Info TB_Gen: Interface 'sdram_my_partner' partner_param.SDRAM_COL_WIDTH: '10'
+Info: TB_Gen: Interface 'sdram_my_partner' partner_param.SDRAM_COL_WIDTH: '10'
+Info: send_message Info TB_Gen: Interface 'sdram_my_partner' partner_param.SDRAM_DATA_WIDTH: '16'
+Info: TB_Gen: Interface 'sdram_my_partner' partner_param.SDRAM_DATA_WIDTH: '16'
+Info: send_message Info TB_Gen: Interface 'sdram_my_partner' partner_param.SDRAM_NUM_CHIPSELECTS: '1'
+Info: TB_Gen: Interface 'sdram_my_partner' partner_param.SDRAM_NUM_CHIPSELECTS: '1'
+Info: send_message Info TB_Gen: Interface 'sdram_my_partner' partner_param.SDRAM_ROW_WIDTH: '13'
+Info: TB_Gen: Interface 'sdram_my_partner' partner_param.SDRAM_ROW_WIDTH: '13'
+Info: send_message Info TB_Gen: Interface 'sdram_my_partner' partner_params: 'CAS_LATENCY CONTR_NAME SDRAM_BANK_WIDTH SDRAM_COL_WIDTH SDRAM_DATA_WIDTH SDRAM_NUM_CHIPSELECTS SDRAM_ROW_WIDTH'
+Info: TB_Gen: Interface 'sdram_my_partner' partner_params: 'CAS_LATENCY CONTR_NAME SDRAM_BANK_WIDTH SDRAM_COL_WIDTH SDRAM_DATA_WIDTH SDRAM_NUM_CHIPSELECTS SDRAM_ROW_WIDTH'
+Info: get_instance_assignments sdram
+Info: get_instance_interfaces sdram
+Info: get_instance_interfaces sdram
+Info: get_interface_property clk EXPORT_OF
+Info: get_interface_property clk_sdram EXPORT_OF
+Info: get_interface_property key_external_connection EXPORT_OF
+Info: get_interface_property pll_locked EXPORT_OF
+Info: get_interface_property reset EXPORT_OF
+Info: get_interface_property sdram_wire EXPORT_OF
+Info: get_instance_assignment sdram testbench.partner.map.clk
+Info: get_instance_assignment sdram testbench.partner.map.clk
+Info: get_instance_assignment sdram testbench.partner.map.clk
+Info: get_instance_interface_property sdram clk CLASS_NAME
+Info: get_instance_interface_parameter_value sdram clk clockRate
+Info: get_instance_interface_property sdram clk CLASS_NAME
+Info: get_interface_property clk EXPORT_OF
+Info: get_interface_property clk_sdram EXPORT_OF
+Info: get_interface_property key_external_connection EXPORT_OF
+Info: get_interface_property pll_locked EXPORT_OF
+Info: get_interface_property reset EXPORT_OF
+Info: get_interface_property sdram_wire EXPORT_OF
+Info: get_instance_property pll CLASS_NAME
+Info: get_interface_property clk EXPORT_OF
+Info: get_interface_property clk_sdram EXPORT_OF
+Info: get_interface_property key_external_connection EXPORT_OF
+Info: get_interface_property pll_locked EXPORT_OF
+Info: get_interface_property reset EXPORT_OF
+Info: get_interface_property sdram_wire EXPORT_OF
+Info: get_instance_property jtag_uart CLASS_NAME
+Info: get_instance_property key CLASS_NAME
+Info: get_instance_property nios2_qsys CLASS_NAME
+Info: get_instance_property onchip_memory2 CLASS_NAME
+Info: get_instance_property sdram CLASS_NAME
+Info: get_instance_property sysid_qsys CLASS_NAME
+Info: get_instance_property timer CLASS_NAME
+Info: get_instance_interface_parameter_value pll outclk0 clockRate
+Info: send_message Info TB_Gen: Implicit assignment 'sdram_my_partner' partner_implicit_name: 'sdram_my_partner'
+Info: TB_Gen: Implicit assignment 'sdram_my_partner' partner_implicit_name: 'sdram_my_partner'
+Info: send_message Info TB_Gen: Implicit assignment 'sdram_my_partner' partner_implicit_clks: 'clk'
+Info: TB_Gen: Implicit assignment 'sdram_my_partner' partner_implicit_clks: 'clk'
+Info: send_message Info TB_Gen: Implicit assignment 'sdram_my_partner' clk.partner_implicit_clk_rate: '143000000.0'
+Info: TB_Gen: Implicit assignment 'sdram_my_partner' clk.partner_implicit_clk_rate: '143000000.0'
+Info: send_message Info TB_Gen: Implicit assignment 'sdram_my_partner' clk.partner_implicit_clk_export: ''
+Info: TB_Gen: Implicit assignment 'sdram_my_partner' clk.partner_implicit_clk_export: ''
+Info: get_instance_property sdram CLASS_NAME
+Info: send_message Info TB_Gen: Creating testbench system : DE0_CV_QSYS_tb with all standard BFMs
+Info: TB_Gen: Creating testbench system : DE0_CV_QSYS_tb with all standard BFMs
+Info: create_system DE0_CV_QSYS_tb
+Info: add_instance DE0_CV_QSYS_inst DE0_CV_QSYS 
+Info: set_use_testbench_naming_pattern true DE0_CV_QSYS
+Info: get_instance_interfaces DE0_CV_QSYS_inst
+Info: get_instance_interface_property DE0_CV_QSYS_inst clk CLASS_NAME
+Info: get_instance_interface_property DE0_CV_QSYS_inst clk_sdram CLASS_NAME
+Info: get_instance_interface_property DE0_CV_QSYS_inst key_external_connection CLASS_NAME
+Info: get_instance_interface_property DE0_CV_QSYS_inst pll_locked CLASS_NAME
+Info: get_instance_interface_property DE0_CV_QSYS_inst reset CLASS_NAME
+Info: get_instance_interface_property DE0_CV_QSYS_inst sdram_wire CLASS_NAME
+Info: get_instance_interface_property DE0_CV_QSYS_inst clk CLASS_NAME
+Info: send_message Info TB_Gen: clock_sink found: clk
+Info: TB_Gen: clock_sink found: clk
+Info: get_instance_interface_property DE0_CV_QSYS_inst clk CLASS_NAME
+Info: add_instance DE0_CV_QSYS_inst_clk_bfm altera_avalon_clock_source 
+Info: get_instance_property DE0_CV_QSYS_inst_clk_bfm CLASS_NAME
+Info: get_instance_interface_parameter_value DE0_CV_QSYS_inst clk clockRate
+Info: set_instance_parameter_value DE0_CV_QSYS_inst_clk_bfm CLOCK_RATE 50000000.0
+Info: set_instance_parameter_value DE0_CV_QSYS_inst_clk_bfm CLOCK_UNIT 1
+Info: get_instance_property DE0_CV_QSYS_inst_clk_bfm CLASS_NAME
+Info: get_instance_interface_property DE0_CV_QSYS_inst clk CLASS_NAME
+Info: get_instance_interfaces DE0_CV_QSYS_inst_clk_bfm
+Info: get_instance_interface_property DE0_CV_QSYS_inst_clk_bfm clk CLASS_NAME
+Info: add_connection DE0_CV_QSYS_inst_clk_bfm.clk DE0_CV_QSYS_inst.clk
+Info: get_instance_interface_property DE0_CV_QSYS_inst reset CLASS_NAME
+Info: send_message Info TB_Gen: reset_sink found: reset
+Info: TB_Gen: reset_sink found: reset
+Info: get_instance_interface_property DE0_CV_QSYS_inst reset CLASS_NAME
+Info: add_instance DE0_CV_QSYS_inst_reset_bfm altera_avalon_reset_source 
+Info: get_instance_property DE0_CV_QSYS_inst_reset_bfm CLASS_NAME
+Info: get_instance_interface_ports DE0_CV_QSYS_inst reset
+Info: get_instance_interface_port_property DE0_CV_QSYS_inst reset reset_reset_n ROLE
+Info: get_instance_interface_port_property DE0_CV_QSYS_inst reset reset_reset_n ROLE
+Info: set_instance_parameter_value DE0_CV_QSYS_inst_reset_bfm ASSERT_HIGH_RESET 0
+Info: set_instance_parameter_value DE0_CV_QSYS_inst_reset_bfm INITIAL_RESET_CYCLES 50
+Info: get_instance_property DE0_CV_QSYS_inst_reset_bfm CLASS_NAME
+Info: get_instance_interfaces DE0_CV_QSYS_inst_reset_bfm
+Info: get_instance_interface_property DE0_CV_QSYS_inst_reset_bfm clk CLASS_NAME
+Info: get_instance_interface_property DE0_CV_QSYS_inst_reset_bfm reset CLASS_NAME
+Info: get_instance_property DE0_CV_QSYS_inst_reset_bfm CLASS_NAME
+Info: get_instance_interface_parameter_value DE0_CV_QSYS_inst reset associatedClock
+Info: get_instance_interfaces DE0_CV_QSYS_inst_clk_bfm
+Info: get_instance_interface_property DE0_CV_QSYS_inst_clk_bfm clk CLASS_NAME
+Info: send_message Warning TB_Gen: DE0_CV_QSYS_inst_reset_bfm is not associated to any clock; connecting DE0_CV_QSYS_inst_reset_bfm to 'DE0_CV_QSYS_inst_clk_bfm.clk'
+Warning: TB_Gen: DE0_CV_QSYS_inst_reset_bfm is not associated to any clock; connecting DE0_CV_QSYS_inst_reset_bfm to 'DE0_CV_QSYS_inst_clk_bfm.clk'
+Info: add_connection DE0_CV_QSYS_inst_clk_bfm.clk DE0_CV_QSYS_inst_reset_bfm.clk
+Info: get_instance_interface_property DE0_CV_QSYS_inst reset CLASS_NAME
+Info: get_instance_interfaces DE0_CV_QSYS_inst_reset_bfm
+Info: get_instance_interface_property DE0_CV_QSYS_inst_reset_bfm clk CLASS_NAME
+Info: get_instance_interface_property DE0_CV_QSYS_inst_reset_bfm reset CLASS_NAME
+Info: add_connection DE0_CV_QSYS_inst_reset_bfm.reset DE0_CV_QSYS_inst.reset
+Info: get_instance_interface_property DE0_CV_QSYS_inst key_external_connection CLASS_NAME
+Info: send_message Info TB_Gen: conduit_end found: key_external_connection
+Info: TB_Gen: conduit_end found: key_external_connection
+Info: get_instance_interface_property DE0_CV_QSYS_inst key_external_connection CLASS_NAME
+Info: add_instance DE0_CV_QSYS_inst_key_external_connection_bfm altera_conduit_bfm 
+Info: get_instance_property DE0_CV_QSYS_inst_key_external_connection_bfm CLASS_NAME
+Info: get_instance_interface_parameter_value DE0_CV_QSYS_inst key_external_connection associatedClock
+Info: get_instance_interface_parameter_value DE0_CV_QSYS_inst key_external_connection associatedReset
+Info: get_instance_interface_ports DE0_CV_QSYS_inst key_external_connection
+Info: get_instance_interface_port_property DE0_CV_QSYS_inst key_external_connection key_external_connection_export ROLE
+Info: get_instance_interface_port_property DE0_CV_QSYS_inst key_external_connection key_external_connection_export WIDTH
+Info: get_instance_interface_port_property DE0_CV_QSYS_inst key_external_connection key_external_connection_export DIRECTION
+Info: set_instance_parameter_value DE0_CV_QSYS_inst_key_external_connection_bfm CLOCKED_SIGNAL 0
+Info: set_instance_parameter_value DE0_CV_QSYS_inst_key_external_connection_bfm ENABLE_RESET 0
+Info: set_instance_parameter_value DE0_CV_QSYS_inst_key_external_connection_bfm SIGNAL_ROLES export
+Info: set_instance_parameter_value DE0_CV_QSYS_inst_key_external_connection_bfm SIGNAL_WIDTHS 4
+Info: set_instance_parameter_value DE0_CV_QSYS_inst_key_external_connection_bfm SIGNAL_DIRECTIONS output
+Info: get_instance_property DE0_CV_QSYS_inst_key_external_connection_bfm CLASS_NAME
+Info: get_instance_interface_property DE0_CV_QSYS_inst key_external_connection CLASS_NAME
+Info: get_instance_interfaces DE0_CV_QSYS_inst_key_external_connection_bfm
+Info: get_instance_interface_property DE0_CV_QSYS_inst_key_external_connection_bfm conduit CLASS_NAME
+Info: add_connection DE0_CV_QSYS_inst_key_external_connection_bfm.conduit DE0_CV_QSYS_inst.key_external_connection
+Info: get_instance_interface_property DE0_CV_QSYS_inst pll_locked CLASS_NAME
+Info: send_message Info TB_Gen: conduit_end found: pll_locked
+Info: TB_Gen: conduit_end found: pll_locked
+Info: get_instance_interface_property DE0_CV_QSYS_inst pll_locked CLASS_NAME
+Info: add_instance DE0_CV_QSYS_inst_pll_locked_bfm altera_conduit_bfm 
+Info: get_instance_property DE0_CV_QSYS_inst_pll_locked_bfm CLASS_NAME
+Info: get_instance_interface_parameter_value DE0_CV_QSYS_inst pll_locked associatedClock
+Info: get_instance_interface_parameter_value DE0_CV_QSYS_inst pll_locked associatedReset
+Info: get_instance_interface_ports DE0_CV_QSYS_inst pll_locked
+Info: get_instance_interface_port_property DE0_CV_QSYS_inst pll_locked pll_locked_export ROLE
+Info: get_instance_interface_port_property DE0_CV_QSYS_inst pll_locked pll_locked_export WIDTH
+Info: get_instance_interface_port_property DE0_CV_QSYS_inst pll_locked pll_locked_export DIRECTION
+Info: set_instance_parameter_value DE0_CV_QSYS_inst_pll_locked_bfm CLOCKED_SIGNAL 0
+Info: set_instance_parameter_value DE0_CV_QSYS_inst_pll_locked_bfm ENABLE_RESET 0
+Info: set_instance_parameter_value DE0_CV_QSYS_inst_pll_locked_bfm SIGNAL_ROLES export
+Info: set_instance_parameter_value DE0_CV_QSYS_inst_pll_locked_bfm SIGNAL_WIDTHS 1
+Info: set_instance_parameter_value DE0_CV_QSYS_inst_pll_locked_bfm SIGNAL_DIRECTIONS input
+Info: get_instance_property DE0_CV_QSYS_inst_pll_locked_bfm CLASS_NAME
+Info: get_instance_interface_property DE0_CV_QSYS_inst pll_locked CLASS_NAME
+Info: get_instance_interfaces DE0_CV_QSYS_inst_pll_locked_bfm
+Info: get_instance_interface_property DE0_CV_QSYS_inst_pll_locked_bfm conduit CLASS_NAME
+Info: add_connection DE0_CV_QSYS_inst_pll_locked_bfm.conduit DE0_CV_QSYS_inst.pll_locked
+Info: get_instance_interface_property DE0_CV_QSYS_inst sdram_wire CLASS_NAME
+Info: send_message Info TB_Gen: conduit_end (for partner module) found: sdram_wire
+Info: TB_Gen: conduit_end (for partner module) found: sdram_wire
+Info: add_instance sdram_my_partner altera_sdram_partner_module 
+Info: set_instance_parameter_value sdram_my_partner CAS_LATENCY 3
+Info: set_instance_parameter_value sdram_my_partner CONTR_NAME DE0_CV_QSYS_sdram
+Info: set_instance_parameter_value sdram_my_partner SDRAM_BANK_WIDTH 2
+Info: set_instance_parameter_value sdram_my_partner SDRAM_COL_WIDTH 10
+Info: set_instance_parameter_value sdram_my_partner SDRAM_DATA_WIDTH 16
+Info: set_instance_parameter_value sdram_my_partner SDRAM_NUM_CHIPSELECTS 1
+Info: set_instance_parameter_value sdram_my_partner SDRAM_ROW_WIDTH 13
+Info: get_instance_interface_property DE0_CV_QSYS_inst sdram_wire CLASS_NAME
+Info: get_instance_interface_property sdram_my_partner conduit CLASS_NAME
+Info: get_instance_interface_property DE0_CV_QSYS_inst sdram_wire CLASS_NAME
+Info: get_instance_interface_property sdram_my_partner conduit CLASS_NAME
+Info: add_connection sdram_my_partner.conduit DE0_CV_QSYS_inst.sdram_wire
+Info: get_instance_interface_property sdram_my_partner clk CLASS_NAME
+Info: get_instance_interface_property sdram_my_partner clk CLASS_NAME
+Info: add_instance sdram_my_partner_clk_bfm altera_avalon_clock_source 
+Info: set_instance_parameter_value sdram_my_partner_clk_bfm CLOCK_RATE 143000000.0
+Info: set_instance_parameter_value sdram_my_partner_clk_bfm CLOCK_UNIT 1
+Info: get_instance_interface_property sdram_my_partner clk CLASS_NAME
+Info: get_instance_interfaces sdram_my_partner_clk_bfm
+Info: get_instance_interface_property sdram_my_partner_clk_bfm clk CLASS_NAME
+Info: add_connection sdram_my_partner_clk_bfm.clk sdram_my_partner.clk
+Info: send_message Info TB_Gen: Saving testbench system: DE0_CV_QSYS_tb.qsys
+Info: TB_Gen: Saving testbench system: DE0_CV_QSYS_tb.qsys
+Info: save_system DE0_CV_QSYS_tb.qsys
+Info: send_message Info TB_Gen: TBGEN SUCCESSFUL
+Info: TB_Gen: TBGEN SUCCESSFUL
+Info: Testbench system: C:/Users/linh9/Documents/source/DE0-CV_v.1.2.1_SystemCD/Demonstrations/DE0_CV_SDRAM_Nios_Test/DE0_CV_QSYS/testbench/DE0_CV_QSYS_tb.qsys
+Info: Done
+Info: qsys-generate C:\Users\linh9\Documents\source\DE0-CV_v.1.2.1_SystemCD\Demonstrations\DE0_CV_SDRAM_Nios_Test\DE0_CV_QSYS.qsys --simulation=VERILOG --allow-mixed-language-simulation --testbench=STANDARD --testbench-simulation=VERILOG --allow-mixed-language-testbench-simulation --output-directory=C:\Users\linh9\Documents\source\DE0-CV_v.1.2.1_SystemCD\Demonstrations\DE0_CV_SDRAM_Nios_Test\DE0_CV_QSYS\testbench\DE0_CV_QSYS_tb\simulation --family="Cyclone V" --part=5CEBA4F23C7
+Progress: Loading testbench/DE0_CV_QSYS_tb.qsys
+Progress: Reading input file
+Progress: Adding DE0_CV_QSYS_inst [DE0_CV_QSYS 1.0]
+Progress: Parameterizing module DE0_CV_QSYS_inst
+Progress: Adding DE0_CV_QSYS_inst_clk_bfm [altera_avalon_clock_source 18.1]
+Progress: Parameterizing module DE0_CV_QSYS_inst_clk_bfm
+Progress: Adding DE0_CV_QSYS_inst_key_external_connection_bfm [altera_conduit_bfm 18.1]
+Progress: Parameterizing module DE0_CV_QSYS_inst_key_external_connection_bfm
+Progress: Adding DE0_CV_QSYS_inst_pll_locked_bfm [altera_conduit_bfm 18.1]
+Progress: Parameterizing module DE0_CV_QSYS_inst_pll_locked_bfm
+Progress: Adding DE0_CV_QSYS_inst_reset_bfm [altera_avalon_reset_source 18.1]
+Progress: Parameterizing module DE0_CV_QSYS_inst_reset_bfm
+Progress: Adding sdram_my_partner [altera_sdram_partner_module 11.0]
+Progress: Parameterizing module sdram_my_partner
+Progress: Adding sdram_my_partner_clk_bfm [altera_avalon_clock_source 18.1]
+Progress: Parameterizing module sdram_my_partner_clk_bfm
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: DE0_CV_QSYS_tb.DE0_CV_QSYS_inst.jtag_uart: JTAG UART IP input clock need to be at least double (2x) the operating frequency of JTAG TCK on board
+Info: DE0_CV_QSYS_tb.DE0_CV_QSYS_inst.key: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Info: DE0_CV_QSYS_tb.DE0_CV_QSYS_inst.pll: The legal reference clock frequency is 5.0 MHz..700.0 MHz
+Warning: DE0_CV_QSYS_tb.DE0_CV_QSYS_inst.pll: Able to implement PLL - Actual settings differ from Requested settings
+Info: DE0_CV_QSYS_tb.DE0_CV_QSYS_inst.sdram: SDRAM Controller will only be supported in Quartus Prime Standard Edition in the future release.
+Info: DE0_CV_QSYS_tb.DE0_CV_QSYS_inst.sysid_qsys: System ID is not assigned automatically. Edit the System ID parameter to provide a unique ID
+Info: DE0_CV_QSYS_tb.DE0_CV_QSYS_inst.sysid_qsys: Time stamp will be automatically updated when this component is generated.
+Info: DE0_CV_QSYS_tb.DE0_CV_QSYS_inst_clk_bfm: Elaborate: altera_clock_source
+Info: DE0_CV_QSYS_tb.DE0_CV_QSYS_inst_clk_bfm:            $Revision: #1 $
+Info: DE0_CV_QSYS_tb.DE0_CV_QSYS_inst_clk_bfm:            $Date: 2018/07/18 $
+Info: DE0_CV_QSYS_tb.DE0_CV_QSYS_inst_reset_bfm: Elaborate: altera_reset_source
+Info: DE0_CV_QSYS_tb.DE0_CV_QSYS_inst_reset_bfm:            $Revision: #1 $
+Info: DE0_CV_QSYS_tb.DE0_CV_QSYS_inst_reset_bfm:            $Date: 2018/07/18 $
+Info: DE0_CV_QSYS_tb.DE0_CV_QSYS_inst_reset_bfm: Reset is negatively asserted.
+Info: DE0_CV_QSYS_tb.sdram_my_partner_clk_bfm: Elaborate: altera_clock_source
+Info: DE0_CV_QSYS_tb.sdram_my_partner_clk_bfm:            $Revision: #1 $
+Info: DE0_CV_QSYS_tb.sdram_my_partner_clk_bfm:            $Date: 2018/07/18 $
+Info: DE0_CV_QSYS_tb: Generating DE0_CV_QSYS_tb "DE0_CV_QSYS_tb" for SIM_VERILOG
+Info: DE0_CV_QSYS_inst: "DE0_CV_QSYS_tb" instantiated DE0_CV_QSYS "DE0_CV_QSYS_inst"
+Info: DE0_CV_QSYS_inst_clk_bfm: "DE0_CV_QSYS_tb" instantiated altera_avalon_clock_source "DE0_CV_QSYS_inst_clk_bfm"
+Info: DE0_CV_QSYS_inst_key_external_connection_bfm: "DE0_CV_QSYS_tb" instantiated altera_conduit_bfm "DE0_CV_QSYS_inst_key_external_connection_bfm"
+Info: Reusing file C:/Users/linh9/Documents/source/DE0-CV_v.1.2.1_SystemCD/Demonstrations/DE0_CV_SDRAM_Nios_Test/DE0_CV_QSYS/testbench/DE0_CV_QSYS_tb/simulation/submodules/verbosity_pkg.sv
+Info: DE0_CV_QSYS_inst_pll_locked_bfm: "DE0_CV_QSYS_tb" instantiated altera_conduit_bfm "DE0_CV_QSYS_inst_pll_locked_bfm"
+Info: Reusing file C:/Users/linh9/Documents/source/DE0-CV_v.1.2.1_SystemCD/Demonstrations/DE0_CV_SDRAM_Nios_Test/DE0_CV_QSYS/testbench/DE0_CV_QSYS_tb/simulation/submodules/verbosity_pkg.sv
+Info: DE0_CV_QSYS_inst_reset_bfm: "DE0_CV_QSYS_tb" instantiated altera_avalon_reset_source "DE0_CV_QSYS_inst_reset_bfm"
+Info: Reusing file C:/Users/linh9/Documents/source/DE0-CV_v.1.2.1_SystemCD/Demonstrations/DE0_CV_SDRAM_Nios_Test/DE0_CV_QSYS/testbench/DE0_CV_QSYS_tb/simulation/submodules/verbosity_pkg.sv
+Info: sdram_my_partner: Starting RTL generation for partner module 'altera_sdram_partner_module'
+Info: sdram_my_partner:   Generation command is [exec C:/intelfpga_lite/18.1/quartus/bin64/perl/bin/perl.exe -I C:/intelfpga_lite/18.1/quartus/bin64/perl/lib -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/europa -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/perl_lib -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin -I C:/intelfpga_lite/18.1/ip/altera/alt_mem_if/alt_mem_if_mem_models/altera_sdram_partner_module/ -I C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_sdram_partner_module -- C:/intelfpga_lite/18.1/ip/altera/alt_mem_if/alt_mem_if_mem_models/altera_sdram_partner_module//em_altera_sodimm.pl --output_dir=C:/Users/linh9/AppData/Local/Temp/alt8856_3272401222689262631.dir/0006_sopcgen/ --quartus_dir=C:/intelfpga_lite/18.1/quartus --language=verilog --sdram_data_width=16 --sdram_bank_width=2 --sdram_col_width=10 --sdram_row_width=13 --sdram_num_chipselects=1 --module_name=altera_sdram_partner_module --cas_latency=3]
+Info: sdram_my_partner: # 2021.08.17 15:28:46 (*) Starting SDRAM Simulation Partner Module generation
+Info: sdram_my_partner: Done RTL generation for module 'altera_sdram_partner_module'
+Info: sdram_my_partner: "DE0_CV_QSYS_tb" instantiated altera_sdram_partner_module "sdram_my_partner"
+Info: jtag_uart: Starting RTL generation for module 'DE0_CV_QSYS_jtag_uart'
+Info: jtag_uart:   Generation command is [exec C:/intelfpga_lite/18.1/quartus/bin64/perl/bin/perl.exe -I C:/intelfpga_lite/18.1/quartus/bin64/perl/lib -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/europa -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/perl_lib -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin -I C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/common -I C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_jtag_uart -- C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_jtag_uart/generate_rtl.pl --name=DE0_CV_QSYS_jtag_uart --dir=C:/Users/linh9/AppData/Local/Temp/alt8856_3272401222689262631.dir/0007_jtag_uart_gen/ --quartus_dir=C:/intelfpga_lite/18.1/quartus --verilog --config=C:/Users/linh9/AppData/Local/Temp/alt8856_3272401222689262631.dir/0007_jtag_uart_gen//DE0_CV_QSYS_jtag_uart_component_configuration.pl  --do_build_sim=1    --sim_dir=C:/Users/linh9/AppData/Local/Temp/alt8856_3272401222689262631.dir/0007_jtag_uart_gen/  ]
+Info: jtag_uart: Done RTL generation for module 'DE0_CV_QSYS_jtag_uart'
+Info: jtag_uart: "DE0_CV_QSYS_inst" instantiated altera_avalon_jtag_uart "jtag_uart"
+Info: key: Starting RTL generation for module 'DE0_CV_QSYS_key'
+Info: key:   Generation command is [exec C:/intelfpga_lite/18.1/quartus/bin64/perl/bin/perl.exe -I C:/intelfpga_lite/18.1/quartus/bin64/perl/lib -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/europa -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/perl_lib -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin -I C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/common -I C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio -- C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio/generate_rtl.pl --name=DE0_CV_QSYS_key --dir=C:/Users/linh9/AppData/Local/Temp/alt8856_3272401222689262631.dir/0008_key_gen/ --quartus_dir=C:/intelfpga_lite/18.1/quartus --verilog --config=C:/Users/linh9/AppData/Local/Temp/alt8856_3272401222689262631.dir/0008_key_gen//DE0_CV_QSYS_key_component_configuration.pl  --do_build_sim=1    --sim_dir=C:/Users/linh9/AppData/Local/Temp/alt8856_3272401222689262631.dir/0008_key_gen/  ]
+Info: key: Done RTL generation for module 'DE0_CV_QSYS_key'
+Info: key: "DE0_CV_QSYS_inst" instantiated altera_avalon_pio "key"
+Info: nios2_qsys: "DE0_CV_QSYS_inst" instantiated altera_nios2_gen2 "nios2_qsys"
+Info: onchip_memory2: Starting RTL generation for module 'DE0_CV_QSYS_onchip_memory2'
+Info: onchip_memory2:   Generation command is [exec C:/intelfpga_lite/18.1/quartus/bin64/perl/bin/perl.exe -I C:/intelfpga_lite/18.1/quartus/bin64/perl/lib -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/europa -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/perl_lib -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin -I C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/common -I C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_onchip_memory2 -- C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_onchip_memory2/generate_rtl.pl --name=DE0_CV_QSYS_onchip_memory2 --dir=C:/Users/linh9/AppData/Local/Temp/alt8856_3272401222689262631.dir/0009_onchip_memory2_gen/ --quartus_dir=C:/intelfpga_lite/18.1/quartus --verilog --config=C:/Users/linh9/AppData/Local/Temp/alt8856_3272401222689262631.dir/0009_onchip_memory2_gen//DE0_CV_QSYS_onchip_memory2_component_configuration.pl  --do_build_sim=1    --sim_dir=C:/Users/linh9/AppData/Local/Temp/alt8856_3272401222689262631.dir/0009_onchip_memory2_gen/  ]
+Info: onchip_memory2: Done RTL generation for module 'DE0_CV_QSYS_onchip_memory2'
+Info: onchip_memory2: "DE0_CV_QSYS_inst" instantiated altera_avalon_onchip_memory2 "onchip_memory2"
+Info: pll: Generating simgen model
+Info: pll: Info: ******************************************************************* Info: Running Quartus Prime Shell     Info: Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition     Info: Copyright (C) 2018  Intel Corporation. All rights reserved.     Info: Your use of Intel Corporation's design tools, logic functions      Info: and other software and tools, and its AMPP partner logic      Info: functions, and any output files from any of the foregoing      Info: (including device programming or simulation files), and any      Info: associated documentation or information are expressly subject      Info: to the terms and conditions of the Intel Program License      Info: Subscription Agreement, the Intel Quartus Prime License Agreement,     Info: the Intel FPGA IP License Agreement, or other applicable license     Info: agreement, including, without limitation, that your use is for     Info: the sole purpose of programming logic devices manufactured by     Info: Intel and sold by Intel or its authorized distributors.  Please     Info: refer to the applicable agreement for further details.     Info: Processing started: Tue Aug 17 15:28:52 2021 Info: Command: quartus_sh -t run_simgen_cmd.tcl Info: ******************************************************************* Info: Running Quartus Prime Analysis & Synthesis     Info: Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition     Info: Copyright (C) 2018  Intel Corporation. All rights reserved.     Info: Your use of Intel Corporation's design tools, logic functions      Info: and other software and tools, and its AMPP partner logic      Info: functions, and any output files from any of the foregoing      Info: (including device programming or simulation files), and any      Info: associated documentation or information are expressly subject      Info: to the terms and conditions of the Intel Program License      Info: Subscription Agreement, the Intel Quartus Prime License Agreement,     Info: the Intel FPGA IP License Agreement, or other applicable license     Info: agreement, including, without limitation, that your use is for     Info: the sole purpose of programming logic devices manufactured by     Info: Intel and sold by Intel or its authorized distributors.  Please     Info: refer to the applicable agreement for further details.     Info: Processing started: Tue Aug 17 15:28:53 2021 Info: Command: quartus_map DE0_CV_QSYS_pll.qpf --simgen --ini=disable_check_quartus_compatibility_qsys_only=on --simgen_parameter=CBX_HDL_LANGUAGE=VERILOG Info (20034): Auto device selection is not supported for Cyclone V device family. The default device, 5CGXFC7C7F23C8, is set. Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance. Info (20030): Parallel compilation is enabled and will use 2 of the 2 processors detected Info (12021): Found 1 design units, including 1 entities, in source file de0_cv_qsys_pll.v     Info (12023): Found entity 1: DE0_CV_QSYS_pll File: C:/Users/linh9/AppData/Local/Temp/alt8856_3272401222689262631.dir/0010_pll_gen/DE0_CV_QSYS_pll.v Line: 2 Info (12127): Elaborating entity "DE0_CV_QSYS_pll" for the top level hierarchy Info (12128): Elaborating entity "altera_pll" for hierarchy "altera_pll:altera_pll_i" File: C:/Users/linh9/AppData/Local/Temp/alt8856_3272401222689262631.dir/0010_pll_gen/DE0_CV_QSYS_pll.v Line: 88 Info (10008): Verilog HDL or VHDL information: EDA Netlist Writer cannot regroup multidimensional array "wire_to_nowhere_64" into its bus Info (12130): Elaborated megafunction instantiation "altera_pll:altera_pll_i" File: C:/Users/linh9/AppData/Local/Temp/alt8856_3272401222689262631.dir/0010_pll_gen/DE0_CV_QSYS_pll.v Line: 88 Info (12133): Instantiated megafunction "altera_pll:altera_pll_i" with the following parameter: File: C:/Users/linh9/AppData/Local/Temp/alt8856_3272401222689262631.dir/0010_pll_gen/DE0_CV_QSYS_pll.v Line: 88     Info (12134): Parameter "fractional_vco_multiplier" = "false"     Info (12134): Parameter "reference_clock_frequency" = "50.0 MHz"     Info (12134): Parameter "operation_mode" = "normal"     Info (12134): Parameter "number_of_clocks" = "2"     Info (12134): Parameter "output_clock_frequency0" = "143.000000 MHz"     Info (12134): Parameter "phase_shift0" = "0 ps"     Info (12134): Parameter "duty_cycle0" = "50"     Info (12134): Parameter "output_clock_frequency1" = "143.000000 MHz"     Info (12134): Parameter "phase_shift1" = "-3758 ps"     Info (12134): Parameter "duty_cycle1" = "50"     Info (12134): Parameter "output_clock_frequency2" = "0 MHz"     Info (12134): Parameter "phase_shift2" = "0 ps"     Info (12134): Parameter "duty_cycle2" = "50"     Info (12134): Parameter "output_clock_frequency3" = "0 MHz"     Info (12134): Parameter "phase_shift3" = "0 ps"     Info (12134): Parameter "duty_cycle3" = "50"     Info (12134): Parameter "output_clock_frequency4" = "0 MHz"     Info (12134): Parameter "phase_shift4" = "0 ps"     Info (12134): Parameter "duty_cycle4" = "50"     Info (12134): Parameter "output_clock_frequency5" = "0 MHz"     Info (12134): Parameter "phase_shift5" = "0 ps"     Info (12134): Parameter "duty_cycle5" = "50"     Info (12134): Parameter "output_clock_frequency6" = "0 MHz"     Info (12134): Parameter "phase_shift6" = "0 ps"     Info (12134): Parameter "duty_cycle6" = "50"     Info (12134): Parameter "output_clock_frequency7" = "0 MHz"     Info (12134): Parameter "phase_shift7" = "0 ps"     Info (12134): Parameter "duty_cycle7" = "50"     Info (12134): Parameter "output_clock_frequency8" = "0 MHz"     Info (12134): Parameter "phase_shift8" = "0 ps"     Info (12134): Parameter "duty_cycle8" = "50"     Info (12134): Parameter "output_clock_frequency9" = "0 MHz"     Info (12134): Parameter "phase_shift9" = "0 ps"     Info (12134): Parameter "duty_cycle9" = "50"     Info (12134): Parameter "output_clock_frequency10" = "0 MHz"     Info (12134): Parameter "phase_shift10" = "0 ps"     Info (12134): Parameter "duty_cycle10" = "50"     Info (12134): Parameter "output_clock_frequency11" = "0 MHz"     Info (12134): Parameter "phase_shift11" = "0 ps"     Info (12134): Parameter "duty_cycle11" = "50"     Info (12134): Parameter "output_clock_frequency12" = "0 MHz"     Info (12134): Parameter "phase_shift12" = "0 ps"     Info (12134): Parameter "duty_cycle12" = "50"     Info (12134): Parameter "output_clock_frequency13" = "0 MHz"     Info (12134): Parameter "phase_shift13" = "0 ps"     Info (12134): Parameter "duty_cycle13" = "50"     Info (12134): Parameter "output_clock_frequency14" = "0 MHz"     Info (12134): Parameter "phase_shift14" = "0 ps"     Info (12134): Parameter "duty_cycle14" = "50"     Info (12134): Parameter "output_clock_frequency15" = "0 MHz"     Info (12134): Parameter "phase_shift15" = "0 ps"     Info (12134): Parameter "duty_cycle15" = "50"     Info (12134): Parameter "output_clock_frequency16" = "0 MHz"     Info (12134): Parameter "phase_shift16" = "0 ps"     Info (12134): Parameter "duty_cycle16" = "50"     Info (12134): Parameter "output_clock_frequency17" = "0 MHz"     Info (12134): Parameter "phase_shift17" = "0 ps"     Info (12134): Parameter "duty_cycle17" = "50"     Info (12134): Parameter "pll_type" = "General"     Info (12134): Parameter "pll_subtype" = "General" Info (281010): Generating sgate simulator netlist using Simgen SIMGEN_PROGRESS Start of Model generation -- 0% complete SIMGEN_PROGRESS Phase 1 : Internal Objects created -- 25% complete SIMGEN_PROGRESS Phase 2 : Connections between internal objects made -- 60% complete SIMGEN_PROGRESS Phase 3 : Netlist generated -- 100% complete Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 1 warning     Info: Peak virtual memory: 4782 megabytes     Info: Processing ended: Tue Aug 17 15:29:12 2021     Info: Elapsed time: 00:00:19     Info: Total CPU time (on all processors): 00:00:06 Info (23030): Evaluation of Tcl script run_simgen_cmd.tcl was successful Info: Quartus Prime Shell was successful. 0 errors, 0 warnings     Info: Peak virtual memory: 4646 megabytes     Info: Processing ended: Tue Aug 17 15:29:13 2021     Info: Elapsed time: 00:00:21     Info: Total CPU time (on all processors): 00:00:07
+Info: pll: Simgen was successful
+Info: pll: "DE0_CV_QSYS_inst" instantiated altera_pll "pll"
+Info: sdram: Starting RTL generation for module 'DE0_CV_QSYS_sdram'
+Info: sdram:   Generation command is [exec C:/intelfpga_lite/18.1/quartus/bin64/perl/bin/perl.exe -I C:/intelfpga_lite/18.1/quartus/bin64/perl/lib -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/europa -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/perl_lib -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin -I C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/common -I C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_new_sdram_controller -- C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_new_sdram_controller/generate_rtl.pl --name=DE0_CV_QSYS_sdram --dir=C:/Users/linh9/AppData/Local/Temp/alt8856_3272401222689262631.dir/0011_sdram_gen/ --quartus_dir=C:/intelfpga_lite/18.1/quartus --verilog --config=C:/Users/linh9/AppData/Local/Temp/alt8856_3272401222689262631.dir/0011_sdram_gen//DE0_CV_QSYS_sdram_component_configuration.pl  --do_build_sim=1    --sim_dir=C:/Users/linh9/AppData/Local/Temp/alt8856_3272401222689262631.dir/0011_sdram_gen/  ]
+Info: sdram: Done RTL generation for module 'DE0_CV_QSYS_sdram'
+Info: sdram: "DE0_CV_QSYS_inst" instantiated altera_avalon_new_sdram_controller "sdram"
+Info: sysid_qsys: "DE0_CV_QSYS_inst" instantiated altera_avalon_sysid_qsys "sysid_qsys"
+Info: timer: Starting RTL generation for module 'DE0_CV_QSYS_timer'
+Info: timer:   Generation command is [exec C:/intelFPGA_lite/18.1/quartus/bin64//perl/bin/perl.exe -I C:/intelFPGA_lite/18.1/quartus/bin64//perl/lib -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/europa -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/perl_lib -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin -I C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/common -I C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_timer -- C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_timer/generate_rtl.pl --name=DE0_CV_QSYS_timer --dir=C:/Users/linh9/AppData/Local/Temp/alt8856_3272401222689262631.dir/0013_timer_gen/ --quartus_dir=C:/intelfpga_lite/18.1/quartus --verilog --config=C:/Users/linh9/AppData/Local/Temp/alt8856_3272401222689262631.dir/0013_timer_gen//DE0_CV_QSYS_timer_component_configuration.pl  --do_build_sim=1    --sim_dir=C:/Users/linh9/AppData/Local/Temp/alt8856_3272401222689262631.dir/0013_timer_gen/  ]
+Info: timer: Done RTL generation for module 'DE0_CV_QSYS_timer'
+Info: timer: "DE0_CV_QSYS_inst" instantiated altera_avalon_timer "timer"
+Info: avalon_st_adapter: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_001: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_002: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_003: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_004: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_005: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_006: Inserting error_adapter: error_adapter_0
+Info: mm_interconnect_0: "DE0_CV_QSYS_inst" instantiated altera_mm_interconnect "mm_interconnect_0"
+Info: irq_mapper: "DE0_CV_QSYS_inst" instantiated altera_irq_mapper "irq_mapper"
+Info: rst_controller: "DE0_CV_QSYS_inst" instantiated altera_reset_controller "rst_controller"
+Info: cpu: Starting RTL generation for module 'DE0_CV_QSYS_nios2_qsys_cpu'
+Info: cpu:   Generation command is [exec C:/intelFPGA_lite/18.1/quartus/bin64//eperlcmd.exe -I C:/intelFPGA_lite/18.1/quartus/bin64//perl/lib -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/europa -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/perl_lib -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin -I C:/intelfpga_lite/18.1/quartus/../ip/altera/nios2_ip/altera_nios2_gen2/cpu_lib -I C:/intelfpga_lite/18.1/quartus/../ip/altera/nios2_ip/altera_nios2_gen2/nios_lib -I C:/intelfpga_lite/18.1/quartus/../ip/altera/nios2_ip/altera_nios2_gen2 -I C:/intelfpga_lite/18.1/quartus/../ip/altera/nios2_ip/altera_nios2_gen2 -- C:/intelfpga_lite/18.1/quartus/../ip/altera/nios2_ip/altera_nios2_gen2/generate_rtl.epl --name=DE0_CV_QSYS_nios2_qsys_cpu --dir=C:/Users/linh9/AppData/Local/Temp/alt8856_3272401222689262631.dir/0016_cpu_gen/ --quartus_bindir=C:/intelFPGA_lite/18.1/quartus/bin64/ --verilog --config=C:/Users/linh9/AppData/Local/Temp/alt8856_3272401222689262631.dir/0016_cpu_gen//DE0_CV_QSYS_nios2_qsys_cpu_processor_configuration.pl  --do_build_sim=1    --sim_dir=C:/Users/linh9/AppData/Local/Temp/alt8856_3272401222689262631.dir/0016_cpu_gen/  ]
+Info: cpu: # 2021.08.17 15:29:30 (*) Starting Nios II generation
+Info: cpu: # 2021.08.17 15:29:30 (*)   Checking for plaintext license.
+Info: cpu: # 2021.08.17 15:29:31 (*)   Couldn't query license setup in Quartus directory C:/intelFPGA_lite/18.1/quartus/bin64/
+Info: cpu: # 2021.08.17 15:29:31 (*)   Defaulting to contents of LM_LICENSE_FILE environment variable
+Info: cpu: # 2021.08.17 15:29:32 (*)   Plaintext license not found.
+Info: cpu: # 2021.08.17 15:29:32 (*)   Checking for encrypted license (non-evaluation).
+Info: cpu: # 2021.08.17 15:29:33 (*)   Couldn't query license setup in Quartus directory C:/intelFPGA_lite/18.1/quartus/bin64/
+Info: cpu: # 2021.08.17 15:29:33 (*)   Defaulting to contents of LM_LICENSE_FILE environment variable
+Info: cpu: # 2021.08.17 15:29:34 (*)   Encrypted license not found.  Defaulting to OCP evaluation license (produces a time-limited SOF)
+Info: cpu: # 2021.08.17 15:29:34 (*)   Elaborating CPU configuration settings
+Info: cpu: # 2021.08.17 15:29:34 (*)   Creating all objects for CPU
+Info: cpu: # 2021.08.17 15:29:34 (*)     Testbench
+Info: cpu: # 2021.08.17 15:29:34 (*)     Instruction decoding
+Info: cpu: # 2021.08.17 15:29:34 (*)       Instruction fields
+Info: cpu: # 2021.08.17 15:29:34 (*)       Instruction decodes
+Info: cpu: # 2021.08.17 15:29:35 (*)       Signals for RTL simulation waveforms
+Info: cpu: # 2021.08.17 15:29:35 (*)       Instruction controls
+Info: cpu: # 2021.08.17 15:29:35 (*)     Pipeline frontend
+Info: cpu: # 2021.08.17 15:29:35 (*)     Pipeline backend
+Info: cpu: # 2021.08.17 15:29:38 (*)   Creating 'C:/Users/linh9/AppData/Local/Temp/alt8856_3272401222689262631.dir/0016_cpu_gen//DE0_CV_QSYS_nios2_qsys_cpu_nios2_waves.do'
+Info: cpu: # 2021.08.17 15:29:38 (*)   Generating RTL from CPU objects
+Info: cpu: # 2021.08.17 15:29:39 (*)   Creating encrypted RTL
+Info: cpu: # 2021.08.17 15:29:39 (*)   Creating IP functional simulation model
+Info: cpu: # 2021.08.17 15:30:08 (*) Done Nios II generation
+Info: cpu: Done RTL generation for module 'DE0_CV_QSYS_nios2_qsys_cpu'
+Info: cpu: "nios2_qsys" instantiated altera_nios2_gen2_unit "cpu"
+Info: nios2_qsys_data_master_translator: "mm_interconnect_0" instantiated altera_merlin_master_translator "nios2_qsys_data_master_translator"
+Info: jtag_uart_avalon_jtag_slave_translator: "mm_interconnect_0" instantiated altera_merlin_slave_translator "jtag_uart_avalon_jtag_slave_translator"
+Info: nios2_qsys_data_master_agent: "mm_interconnect_0" instantiated altera_merlin_master_agent "nios2_qsys_data_master_agent"
+Info: jtag_uart_avalon_jtag_slave_agent: "mm_interconnect_0" instantiated altera_merlin_slave_agent "jtag_uart_avalon_jtag_slave_agent"
+Info: jtag_uart_avalon_jtag_slave_agent_rsp_fifo: "mm_interconnect_0" instantiated altera_avalon_sc_fifo "jtag_uart_avalon_jtag_slave_agent_rsp_fifo"
+Info: router: "mm_interconnect_0" instantiated altera_merlin_router "router"
+Info: router_001: "mm_interconnect_0" instantiated altera_merlin_router "router_001"
+Info: router_002: "mm_interconnect_0" instantiated altera_merlin_router "router_002"
+Info: router_004: "mm_interconnect_0" instantiated altera_merlin_router "router_004"
+Info: router_008: "mm_interconnect_0" instantiated altera_merlin_router "router_008"
+Info: nios2_qsys_data_master_limiter: "mm_interconnect_0" instantiated altera_merlin_traffic_limiter "nios2_qsys_data_master_limiter"
+Info: Reusing file C:/Users/linh9/Documents/source/DE0-CV_v.1.2.1_SystemCD/Demonstrations/DE0_CV_SDRAM_Nios_Test/DE0_CV_QSYS/testbench/DE0_CV_QSYS_tb/simulation/submodules/altera_avalon_sc_fifo.v
+Info: sdram_s1_burst_adapter: "mm_interconnect_0" instantiated altera_merlin_burst_adapter "sdram_s1_burst_adapter"
+Info: Reusing file C:/Users/linh9/Documents/source/DE0-CV_v.1.2.1_SystemCD/Demonstrations/DE0_CV_SDRAM_Nios_Test/DE0_CV_QSYS/testbench/DE0_CV_QSYS_tb/simulation/submodules/altera_avalon_st_pipeline_base.v
+Info: cmd_demux: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "cmd_demux"
+Info: cmd_demux_001: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "cmd_demux_001"
+Info: cmd_mux: "mm_interconnect_0" instantiated altera_merlin_multiplexer "cmd_mux"
+Info: cmd_mux_002: "mm_interconnect_0" instantiated altera_merlin_multiplexer "cmd_mux_002"
+Info: Reusing file C:/Users/linh9/Documents/source/DE0-CV_v.1.2.1_SystemCD/Demonstrations/DE0_CV_SDRAM_Nios_Test/DE0_CV_QSYS/testbench/DE0_CV_QSYS_tb/simulation/submodules/altera_merlin_arbitrator.sv
+Info: rsp_demux: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "rsp_demux"
+Info: rsp_demux_002: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "rsp_demux_002"
+Info: rsp_mux: "mm_interconnect_0" instantiated altera_merlin_multiplexer "rsp_mux"
+Info: Reusing file C:/Users/linh9/Documents/source/DE0-CV_v.1.2.1_SystemCD/Demonstrations/DE0_CV_SDRAM_Nios_Test/DE0_CV_QSYS/testbench/DE0_CV_QSYS_tb/simulation/submodules/altera_merlin_arbitrator.sv
+Info: rsp_mux_001: "mm_interconnect_0" instantiated altera_merlin_multiplexer "rsp_mux_001"
+Info: Reusing file C:/Users/linh9/Documents/source/DE0-CV_v.1.2.1_SystemCD/Demonstrations/DE0_CV_SDRAM_Nios_Test/DE0_CV_QSYS/testbench/DE0_CV_QSYS_tb/simulation/submodules/altera_merlin_arbitrator.sv
+Info: sdram_s1_rsp_width_adapter: "mm_interconnect_0" instantiated altera_merlin_width_adapter "sdram_s1_rsp_width_adapter"
+Info: Reusing file C:/Users/linh9/Documents/source/DE0-CV_v.1.2.1_SystemCD/Demonstrations/DE0_CV_SDRAM_Nios_Test/DE0_CV_QSYS/testbench/DE0_CV_QSYS_tb/simulation/submodules/altera_merlin_address_alignment.sv
+Info: Reusing file C:/Users/linh9/Documents/source/DE0-CV_v.1.2.1_SystemCD/Demonstrations/DE0_CV_SDRAM_Nios_Test/DE0_CV_QSYS/testbench/DE0_CV_QSYS_tb/simulation/submodules/altera_merlin_burst_uncompressor.sv
+Info: avalon_st_adapter: "mm_interconnect_0" instantiated altera_avalon_st_adapter "avalon_st_adapter"
+Info: avalon_st_adapter_006: "mm_interconnect_0" instantiated altera_avalon_st_adapter "avalon_st_adapter_006"
+Info: error_adapter_0: "avalon_st_adapter" instantiated error_adapter "error_adapter_0"
+Info: error_adapter_0: "avalon_st_adapter_006" instantiated error_adapter "error_adapter_0"
+Info: DE0_CV_QSYS_tb: Done "DE0_CV_QSYS_tb" with 44 modules, 86 files
+Info: qsys-generate succeeded.
+Info: sim-script-gen --spd=C:\Users\linh9\Documents\source\DE0-CV_v.1.2.1_SystemCD\Demonstrations\DE0_CV_SDRAM_Nios_Test\DE0_CV_QSYS_tb.spd --output-directory=C:/Users/linh9/Documents/source/DE0-CV_v.1.2.1_SystemCD/Demonstrations/DE0_CV_SDRAM_Nios_Test/DE0_CV_QSYS/testbench/ --use-relative-paths=true
+Info: Doing: ip-make-simscript --spd=C:\Users\linh9\Documents\source\DE0-CV_v.1.2.1_SystemCD\Demonstrations\DE0_CV_SDRAM_Nios_Test\DE0_CV_QSYS_tb.spd --output-directory=C:/Users/linh9/Documents/source/DE0-CV_v.1.2.1_SystemCD/Demonstrations/DE0_CV_SDRAM_Nios_Test/DE0_CV_QSYS/testbench/ --use-relative-paths=true
+Info: Generating the following file(s) for MODELSIM simulator in C:/Users/linh9/Documents/source/DE0-CV_v.1.2.1_SystemCD/Demonstrations/DE0_CV_SDRAM_Nios_Test/DE0_CV_QSYS/testbench/ directory:
+Info: 	mentor/msim_setup.tcl
+Info: Generating the following file(s) for VCS simulator in C:/Users/linh9/Documents/source/DE0-CV_v.1.2.1_SystemCD/Demonstrations/DE0_CV_SDRAM_Nios_Test/DE0_CV_QSYS/testbench/ directory:
+Info: 	synopsys/vcs/vcs_setup.sh
+Info: Generating the following file(s) for VCSMX simulator in C:/Users/linh9/Documents/source/DE0-CV_v.1.2.1_SystemCD/Demonstrations/DE0_CV_SDRAM_Nios_Test/DE0_CV_QSYS/testbench/ directory:
+Info: 	synopsys/vcsmx/synopsys_sim.setup
+Info: 	synopsys/vcsmx/vcsmx_setup.sh
+Info: Generating the following file(s) for NCSIM simulator in C:/Users/linh9/Documents/source/DE0-CV_v.1.2.1_SystemCD/Demonstrations/DE0_CV_SDRAM_Nios_Test/DE0_CV_QSYS/testbench/ directory:
+Info: 	cadence/cds.lib
+Info: 	cadence/hdl.var
+Info: 	cadence/ncsim_setup.sh
+Info: 	43 .cds.lib files in cadence/cds_libs/ directory
+Info: Generating the following file(s) for RIVIERA simulator in C:/Users/linh9/Documents/source/DE0-CV_v.1.2.1_SystemCD/Demonstrations/DE0_CV_SDRAM_Nios_Test/DE0_CV_QSYS/testbench/ directory:
+Info: 	aldec/rivierapro_setup.tcl
+Info: For information on how to simulate your IP, see the explanatory comments in the simulator-specific subdirectories under C:/Users/linh9/Documents/source/DE0-CV_v.1.2.1_SystemCD/Demonstrations/DE0_CV_SDRAM_Nios_Test/DE0_CV_QSYS/testbench/.
+Info: Regenerate these scripts whenever you make any change to any Quartus-generated IP in your project.
+Info: Finished: Create testbench Platform Designer system

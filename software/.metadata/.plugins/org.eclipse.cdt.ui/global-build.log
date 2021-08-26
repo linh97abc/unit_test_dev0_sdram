@@ -1,0 +1,58 @@
+15:22:33 **** Incremental Build of configuration Nios II for project DE0_CV_SDRAM_Nios_Test ****
+make all 
+Info: Building ../DE0_CV_SDRAM_Nios_Test_bsp/
+C:/intelFPGA_lite/18.1/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../DE0_CV_SDRAM_Nios_Test_bsp/
+[BSP build complete]
+Info: Compiling main.c to obj/default/main.o
+nios2-elf-gcc -xc -MP -MMD -c -I../DE0_CV_SDRAM_Nios_Test_bsp//HAL/inc -I../DE0_CV_SDRAM_Nios_Test_bsp/ -I../DE0_CV_SDRAM_Nios_Test_bsp//drivers/inc  -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall   -mno-hw-div -mhw-mul -mno-hw-mulx -mgpopt=global  -o obj/default/main.o main.c
+main.c: In function 'main':
+main.c:47:15: warning: unused variable 'ButtonMask' [-Wunused-variable]
+  const alt_u8 ButtonMask = 0x0F; // 4 button
+               ^
+main.c:46:16: warning: unused variable 'ButtonStatus' [-Wunused-variable]
+  alt_u8 Status,ButtonStatus;
+                ^
+main.c:46:9: warning: unused variable 'Status' [-Wunused-variable]
+  alt_u8 Status,ButtonStatus;
+         ^
+main.c:45:21: warning: unused variable 'TimeElapsed' [-Wunused-variable]
+  alt_u32 TimeStart, TimeElapsed;
+                     ^
+main.c:45:10: warning: unused variable 'TimeStart' [-Wunused-variable]
+  alt_u32 TimeStart, TimeElapsed;
+          ^
+main.c:44:7: warning: unused variable 'bShowMessage' [-Wunused-variable]
+  bool bShowMessage = TRUE;
+       ^
+main.c:43:10: warning: unused variable 'InitValue' [-Wunused-variable]
+  alt_u32 InitValue = 0x01;
+          ^
+main.c:42:6: warning: unused variable 'TestIndex' [-Wunused-variable]
+  int TestIndex ;
+      ^
+main.c:41:14: warning: unused variable 'bLoop' [-Wunused-variable]
+  bool bPass, bLoop;
+              ^
+main.c:41:7: warning: unused variable 'bPass' [-Wunused-variable]
+  bool bPass, bLoop;
+       ^
+Info: Linking DE0_CV_SDRAM_Nios_Test.elf
+nios2-elf-g++  -T'../DE0_CV_SDRAM_Nios_Test_bsp//linker.x' -msys-crt0='../DE0_CV_SDRAM_Nios_Test_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../DE0_CV_SDRAM_Nios_Test_bsp/   -Wl,-Map=DE0_CV_SDRAM_Nios_Test.map   -O0 -g -Wall   -mno-hw-div -mhw-mul -mno-hw-mulx -mgpopt=global  -o DE0_CV_SDRAM_Nios_Test.elf obj/default/main.o obj/default/mem_verify.o -lm 
+nios2-elf-insert DE0_CV_SDRAM_Nios_Test.elf --thread_model hal --cpu_name nios2_qsys --qsys true --simulation_enabled false --id 0 --sidp 0x20041048 --timestamp 1629709252 --stderr_dev jtag_uart --stdin_dev jtag_uart --stdout_dev jtag_uart --sopc_system_name DE0_CV_QSYS --quartus_project_dir "C:/Users/linh9/Documents/source/DE0-CV_v.1.2.1_SystemCD/Demonstrations/DE0_CV_SDRAM_Nios_Test" --jdi C:/Users/linh9/Documents/source/DE0-CV_v.1.2.1_SystemCD/Demonstrations/DE0_CV_SDRAM_Nios_Test/software/DE0_CV_SDRAM_Nios_Test_bsp/../../DE0_CV_SDRAM_Nios_Test.jdi --sopcinfo C:/Users/linh9/Documents/source/DE0-CV_v.1.2.1_SystemCD/Demonstrations/DE0_CV_SDRAM_Nios_Test/software/DE0_CV_SDRAM_Nios_Test_bsp/../../DE0_CV_QSYS.sopcinfo
+Info: (DE0_CV_SDRAM_Nios_Test.elf) 71 KBytes program size (code + initialized data).
+Info:                              46 KBytes free for stack + heap.
+Info: Creating DE0_CV_SDRAM_Nios_Test.objdump
+nios2-elf-objdump --disassemble --syms --all-header --source DE0_CV_SDRAM_Nios_Test.elf >DE0_CV_SDRAM_Nios_Test.objdump
+[DE0_CV_SDRAM_Nios_Test build complete]
+15:22:50 **** Build of configuration Nios II for project DE0_CV_SDRAM_Nios_Test ****
+make all 
+Info: Building ../DE0_CV_SDRAM_Nios_Test_bsp/
+C:/intelFPGA_lite/18.1/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../DE0_CV_SDRAM_Nios_Test_bsp/
+[BSP build complete]
+[DE0_CV_SDRAM_Nios_Test build complete]
+15:22:53 **** Incremental Build of configuration Nios II for project DE0_CV_SDRAM_Nios_Test ****
+make all 
+Info: Building ../DE0_CV_SDRAM_Nios_Test_bsp/
+C:/intelFPGA_lite/18.1/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../DE0_CV_SDRAM_Nios_Test_bsp/
+[BSP build complete]
+[DE0_CV_SDRAM_Nios_Test build complete]

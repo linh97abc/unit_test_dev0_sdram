@@ -1,0 +1,6 @@
+10:00:10 **** Incremental Build of configuration Nios II for project DE0_CV_SDRAM_Nios_Test_bsp ****
+make all 
+[BSP build complete]
+
+10:00:11 Build Finished (took 1s.114ms)
+

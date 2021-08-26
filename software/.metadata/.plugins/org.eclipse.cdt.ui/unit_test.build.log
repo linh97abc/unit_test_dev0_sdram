@@ -1,0 +1,22 @@
+13:53:10 **** Incremental Build of configuration Nios II for project unit_test ****
+make all 
+Info: Building ../DE0_CV_SDRAM_Nios_Test_bsp/
+C:/intelFPGA_lite/18.1/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../DE0_CV_SDRAM_Nios_Test_bsp/
+[BSP build complete]
+Info: Compiling system/system_mock.cpp to obj/default/system/system_mock.o
+nios2-elf-gcc -xc++ -MP -MMD -c -I../DE0_CV_SDRAM_Nios_Test_bsp//HAL/inc -I../DE0_CV_SDRAM_Nios_Test_bsp/ -I../DE0_CV_SDRAM_Nios_Test_bsp//drivers/inc  -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED -std=c++14     -O0 -g -Wall   -mno-hw-div -mhw-mul -mno-hw-mulx -mgpopt=global  -o obj/default/system/system_mock.o system/system_mock.cpp
+Info: Linking unit_test.elf
+nios2-elf-g++  -T'../DE0_CV_SDRAM_Nios_Test_bsp//linker.x' -msys-crt0='../DE0_CV_SDRAM_Nios_Test_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../DE0_CV_SDRAM_Nios_Test_bsp/   -Wl,-Map=unit_test.map   -O0 -g -Wall   -mno-hw-div -mhw-mul -mno-hw-mulx -mgpopt=global  -o unit_test.elf obj/default/main.o obj/default/system/onchip_mem_mock.o obj/default/system/system_mock.o -lm -msys-lib=m
+c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/bin/ld.exe: unit_test.elf section `.text' will not fit in region `onchip_memory2'
+c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/bin/ld.exe: address 0x200ea464 of unit_test.elf section `.rodata' is not within region `onchip_memory2'
+c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/bin/ld.exe: address 0x200ec3c8 of unit_test.elf section `.rwdata' is not within region `onchip_memory2'
+c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/bin/ld.exe: address 0x200eff4c of unit_test.elf section `.bss' is not within region `onchip_memory2'
+c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/bin/ld.exe: address 0x200ea464 of unit_test.elf section `.rodata' is not within region `onchip_memory2'
+c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/bin/ld.exe: address 0x200ec3c8 of unit_test.elf section `.rwdata' is not within region `onchip_memory2'
+c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/bin/ld.exe: address 0x200eff4c of unit_test.elf section `.bss' is not within region `onchip_memory2'
+c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/bin/ld.exe: region `onchip_memory2' overflowed by 723788 bytes
+collect2.exe: error: ld returned 1 exit status
+make: *** [unit_test.elf] Error 1
+
+13:53:18 Build Finished (took 8s.269ms)
+

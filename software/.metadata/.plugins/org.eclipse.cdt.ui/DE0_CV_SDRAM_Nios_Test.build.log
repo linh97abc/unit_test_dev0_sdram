@@ -1,0 +1,9 @@
+15:22:53 **** Incremental Build of configuration Nios II for project DE0_CV_SDRAM_Nios_Test ****
+make all 
+Info: Building ../DE0_CV_SDRAM_Nios_Test_bsp/
+C:/intelFPGA_lite/18.1/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../DE0_CV_SDRAM_Nios_Test_bsp/
+[BSP build complete]
+[DE0_CV_SDRAM_Nios_Test build complete]
+
+15:22:54 Build Finished (took 1s.237ms)
+
